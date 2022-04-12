@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.profile * {
+  display: inline-block;
+}
+.profile {
+  padding: 0;
+  width: 100%;
+  background-color: #ebf3ff;
+}
+
+.profileinfo {
+}
