@@ -1,15 +1,69 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+
 * {
   margin: 0;
   padding: 0;
 }
-.profile * {
-  display: inline-block;
-}
-.profile {
-  padding: 0;
-  width: 100%;
-  background-color: #ebf3ff;
+
+/* 2.Typography Styles
+======================================== */
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
 }
 
-.profileinfo {
+/* 3. Structure Styles
+======================================== */
+
+.nav {
+  width: 100%;
+  background-color: #354e75;
+  overflow: auto;
 }
+
+.nav a {
+  width: 24%;
+  display: inline-block;
+  padding: 12px 0;
+}
+
+.header {
+  width: 100%;
+  background-color: #bad1f7;
+}
+
+.profilepic {
+  align-items: center;
+}
+.profilepic img {
+  width: 30%;
+  height: auto;
+  margin: 30px 35%;
+  border-radius: 50%;
+}
+
+.info {
+  width: 100%;
+}
+
+.info #name {
+  text-align: center;
+}
+
+/* 4. Module Styles
+======================================== */
+
+/* 5. Component Styles
+======================================== */
